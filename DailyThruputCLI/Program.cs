@@ -17,7 +17,7 @@ namespace DailyThruputCLI
         static async Task Main(string[] args)
         {
             // Define connection string and stored procedure name
-            string connectionString = "Server=bsql08;Database=ReportsWeb;User Id=rundailythruput;Password=password;";
+            string connectionString = "Server='';Database='';User Id=rundailythruput;Password='';";
             string storedProcedureName = "usp_UpdateDailyThruput";
 
             // Create SQL connection
